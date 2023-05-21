@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.Parent-Container{
+    background-color: rgb(43, 43, 43);
+    color: #ffffff;
+
+}
+
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.clock{
+    font-size: 100px;
+    color: aqua;
+}
+.clock-wrapper{
+    background-color: rgb(10, 27, 29);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: centerk;
+}
+.img-container{
+text-align: center;
+}
+.img-container img{
+    height: 200pxk;
+}
+.labels{
+    font-size: 22px;
+    padding-left: 30px;
+}
+.bmi-input{
+    width: 80%;
+    height: 30px;
+    margin-left: 33px;
+    margin-top: 12px;
+}
+
+.container{
+    box-shadow: 0px 0px 15px 10px #c4bfbf33;
+    width: 60%;
+    height: 80vh;
+}
+.btn{
+    width: 30%;
+    font-size: 1.2rem;
+    margin: 40px 0 0 70px;
+    padding: 10px 0;
+    background-color: rgb(6, 5, 5);
+    color: rgb(250, 250, 250);
+    border: none;
+    outline: 3px saddlebrown;
+    border-radius: 7px;
+    cursor: pointer;
+   justify-content: space-between;
+   grid-column-gap: 5px;
+}
+.bnt-reload{
+    color: red;
+    outline: 3px solid red;
+    margin-left: 33px;
+   
+}
+.result-container{
+    margin:40px 0 0 70px ;
+}
+.center{
+    margin: 34px 0;
+    text-align: center;
+}
+.p-msg{
+    margin: 10px 0;
+    color: rgb(24, 177, 80);
+}
