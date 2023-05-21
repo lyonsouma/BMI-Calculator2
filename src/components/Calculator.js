@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {usestate} from 'react'
 
 const Calculator = () => {
+    const[weight ,setWeight]=usestate()
+    const[height ,setHeight]=usestate()
+
   return (
     <div className='app'>
     <div className='container'>
@@ -10,12 +13,12 @@ const Calculator = () => {
            
            <div>
               <label>Enter Weight:</label>
-              <input type='number' placeholder='Weight...'/>
+              <input className='bmi-input' type='number' placeholder='Weight...'/>
            </div>
 
            <div>
               <label>Enter Height:</label>
-              <input type='number' placeholder='Height...'/>
+              <input className='bmi-input' type='number' placeholder='Height...'/>
            </div>
 
            <div>

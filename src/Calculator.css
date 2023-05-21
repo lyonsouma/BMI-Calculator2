@@ -17,6 +17,7 @@
 }
 .container{
     box-shadow: 0px 0px 15px 10px rgb(255, 0,0,0.2);
+
 }
 .btn{
     width: 45%;
@@ -30,4 +31,16 @@
     border-radius: 7px;
     cursor: pointer;
     justify-content: space-between;
+}
+.bnt-reload{
+    color: 'red';
+    outline: 3px solid blue;
+    margin-left :33px
+}
+.center{
+    margin: 34px 0;
+    text-align: center;
+}
+.p-msg{
+    margin: 10px 0;
 }
